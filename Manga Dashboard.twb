@@ -1,0 +1,2113 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Best-Selling Manga-selected-columns' inline='true' name='federated.1j6jzph1fwojmh11wzcr30gplls6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Best-Selling Manga-selected-columns' name='textscan.0ui5n7i0lpv1ek13gfa1w0gk0hta'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/atray/Downloads/Best-Selling Manga-selected-columns.csv' dataRefreshTime='' directory='C:/Users/atray/Downloads' filename='C:/Users/atray/AppData/Local/Temp/TableauTemp/056hyj21haialh1ecu4qk1679lcb/Best-Selling Manga-selected-columns.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0ui5n7i0lpv1ek13gfa1w0gk0hta' name='Best-Selling Manga-selected-columns.csv' table='[Best-Selling Manga-select#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:J1:no:A1:J1:0' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Manga' ordinal='0' />
+            <column datatype='string' name='Japanese' ordinal='1' />
+            <column datatype='string' name='Hepburn' ordinal='2' />
+            <column datatype='string' name='Author(s)' ordinal='3' />
+            <column datatype='string' name='Demographic' ordinal='4' />
+            <column datatype='string' name='Publisher' ordinal='5' />
+            <column datatype='string' name='N° Volumes' ordinal='6' />
+            <column datatype='string' name='Total Sales (millions)' ordinal='7' />
+            <column datatype='string' name='Average Sales per Volume (millions)' ordinal='8' />
+            <column datatype='string' name='Rating' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J1:no:A1:J1:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manga</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Manga]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>Manga</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Japanese</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Japanese]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>Japanese</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hepburn</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Hepburn]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>Hepburn</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Author(s)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Author(s)]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>Author(s)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Demographic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Demographic]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>Demographic</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Publisher</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Publisher]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>Publisher</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N° Volumes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[N° Volumes]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>N° Volumes</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Sales (millions)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total Sales (millions)]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>Total Sales (millions)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Sales per Volume (millions)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Average Sales per Volume (millions)]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>Average Sales per Volume (millions)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[Best-Selling Manga-selected-columns.csv]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Best-Selling Manga-selected-columns.csv' datatype='table' name='[__tableau_internal_object_id__].[Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Best-Selling Manga-selected-columns.csv' id='Best-Selling Manga-selected-columns.csv_1A249C799F3C44BB9D01899C3C16AAAA'>
+            <properties context=''>
+              <relation connection='textscan.0ui5n7i0lpv1ek13gfa1w0gk0hta' name='Best-Selling Manga-selected-columns.csv' table='[Best-Selling Manga-select#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:J1:no:A1:J1:0' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Manga' ordinal='0' />
+                  <column datatype='string' name='Japanese' ordinal='1' />
+                  <column datatype='string' name='Hepburn' ordinal='2' />
+                  <column datatype='string' name='Author(s)' ordinal='3' />
+                  <column datatype='string' name='Demographic' ordinal='4' />
+                  <column datatype='string' name='Publisher' ordinal='5' />
+                  <column datatype='string' name='N° Volumes' ordinal='6' />
+                  <column datatype='string' name='Total Sales (millions)' ordinal='7' />
+                  <column datatype='string' name='Average Sales per Volume (millions)' ordinal='8' />
+                  <column datatype='string' name='Rating' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Data (Best-Selling Manga)' inline='true' name='federated.0doy6wl05q81rj14yyk4404q57ou' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Best-Selling Manga' name='excel-direct.1v6akal1v3dakn1e1e4n70k8hxcw'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/atray/Downloads/archive/Best-Selling Manga.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1v6akal1v3dakn1e1e4n70k8hxcw' name='Data' table='[Data$]' type='table'>
+          <columns gridOrigin='A1:M191:no:A1:M191:1' header='yes' lost='0' outcome='1' processed='1070'>
+            <column datatype='string' name='Manga' ordinal='0' />
+            <column datatype='string' name='Japanese' ordinal='1' />
+            <column datatype='string' name='Hepburn' ordinal='2' />
+            <column datatype='string' name='Author(s)' ordinal='3' />
+            <column datatype='string' name='Demographic' ordinal='4' />
+            <column datatype='string' name='Publisher' ordinal='5' />
+            <column datatype='integer' name='N° Volumes' ordinal='6' />
+            <column datatype='real' name='Total Sales (millions)' ordinal='7' />
+            <column datatype='real' name='Average Sales per Volume (millions)' ordinal='8' />
+            <column datatype='real' name='Rating' ordinal='9' />
+            <column datatype='integer' name='Start Year' ordinal='10' />
+            <column datatype='string' name='End Year' ordinal='11' />
+            <column datatype='string' name='Status' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M191:no:A1:M191:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>1070</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manga</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Manga]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Manga</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Japanese</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Japanese]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Japanese</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hepburn</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Hepburn]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Hepburn</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Author(s)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Author(s)]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Author(s)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Demographic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Demographic]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Demographic</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Publisher</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Publisher]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Publisher</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N° Volumes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[N° Volumes]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>N° Volumes</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Sales (millions)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Sales (millions)]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Total Sales (millions)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Sales per Volume (millions)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Sales per Volume (millions)]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Average Sales per Volume (millions)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Start Year]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Start Year</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End Year</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[End Year]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>End Year</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_2E0A0C9003DE47169101E25615BC5171]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Author(s)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Demographic]' role='dimension' type='nominal' />
+      <column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_2E0A0C9003DE47169101E25615BC5171]' role='measure' type='quantitative' />
+      <column-instance column='[Author(s)]' derivation='None' name='[none:Author(s):nk]' pivot='key' type='nominal' />
+      <column-instance column='[Demographic]' derivation='None' name='[none:Demographic:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Demographic)' hidden='true' name='[Action (Demographic)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Demographic]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Demographic:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;-&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Shōjo&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Seinen&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Shōnen&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Josei&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Children&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Author(s):nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Buronson, Tetsuo Hara&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Hiro Mashima&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kanehito Yamada [ja], Tsukasa Abe [ja]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kentaro Miura, Kōji Mori, Studio Gaga&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Minoru Furuya&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Riichiro Inagaki, Yusuke Murata&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Takeshi Konomi&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Yoko Kamio&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ai Yazawa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;George Morikawa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hitoshi Iwaaki&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kazushi Hagiwara&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Masahiro Itabashi, Hiroyuki Tamakoshi&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Negi Haruba&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Shuichi Shigeno&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tsugumi Ohba, Takeshi Obata&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Yuki Suetsugu&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Akira Toriyama&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Haruichi Furudate&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Jin Tojo&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ken Wakui&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Masatoshi Kawahara&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Noriko Sasaki&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tadatoshi Fujimaki&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Yana Toboso&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Yuu Watase&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Chūya Koyama&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hiromu Arakawa&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Katsuhisa Minami&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kōta Kodama, Arakawa Shoji&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Momoko Sakura&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ryu Fujisaki&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tatsuo Nitta&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Yoshito Usui, UY Team&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chiaki Kawamata, Junji Koyanagi, Kamui Fujiwara&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Hirohiko Araki&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kaoru Tada&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kōhei Horikoshi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mitsuru Adachi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Riku Sanjo, Koji Inada&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Takuya Mitsuda&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Yoko Shoji&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Atsushi Kase&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hideaki Sorachi&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Jūzō Yamasaki, Kenichi Kitami&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kenji Hamaoka&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Masaya Tsunamoto, Tsujitomo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;One, Yusuke Murata&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Takao Saito, Saito Production&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Yasuhisa Hara&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Yuzo Takada&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Fuse, Taiki Kawakami&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Hiroyuki Nishimori&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kazuma Kamachi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Makoto Ogino&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Natsu Hyuga, Minoji Kurata, Nekokurage&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Shō Makura, Takeshi Okano&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tomoko Ninomiya&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Yuji Terajima&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Aka Akasaka&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Go Nagai&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ikki Kajiwara, Tetsuya Chiba&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kazuya Minekura&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Masami Kurumada&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nobuhiro Watsuki&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sui Ishida&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Tsukasa Hojo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Yumi Hotta, Takeshi Obata&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Etsumi Haruki&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hiroto Saki, Juzo Tokoro&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kazuhiro Kiuchi&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mai Tsurugina, Tadashi Katou&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Naoki Urasawa, Hokusei Katsushika, Takashi Nagasaki&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Shinji Wada&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tite Kubo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Yudetamago&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Atsushi Ohkubo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hidenori Kusaka, Mato, Satoshi Yamamoto&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kaiji Kawaguchi&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kenjiro Hata&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mayumi Muroyama&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Osamu Akimoto&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Takao Yaguchi&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Yasuko Uchiyama, Tokuo Yokota, Terumi Fujiki, Yoshitari Iizuka&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Clamp&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hiroshi Motomiya&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Katsura Hoshino&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Koyoharu Gotouge&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Muneyuki Kaneshiro, Yusuke Nomura&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Satoru Noda&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tatsuya Egawa&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Yoshiyuki Sadamoto&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Dai Tennōji, Rikiya Gō&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Hiroshi Takahashi&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kazue Kato&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kyoko Ariyoshi&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Nakaba Suzuki&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Satoshi Yoshida&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tatsuya Endo&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Yōzaburō Kanari, Seimaru Amagi, Fumiya Satō&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Fujiko F. Fujio&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hiroya Oku&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kazuki Takahashi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Makoto Mizuno, Gaku Tsugano, Puyo, Eretto&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Naoko Takeuchi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Shinobu Ohtaka&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Tochi Ueyama&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Yugo Kobayashi, Naohiko Ueno&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Gege Akutami&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hiroyuki Takei&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kazumasa Kiuchi, Jun Watanabe&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Makoto Raiku&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Natsuki Takaya&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Shohei Manabe&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tooru Fujisawa&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Yukari Ichijo&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Chie Shinohara&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hiroki Yagami&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Karuho Shiina&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Koi Ikeno&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mitsuteru Yokoyama&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Riyoko Ikeda&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tatsuhiko Yamagami&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Yoshihiro Takahashi&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Buichi Terasawa&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Hinata Takeshi&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kaiu Shirai, Posuka Demizu&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kenshi Hirokane&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mineo Maya&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Osamu Tezuka&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Takehiko Inoue&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Yōichi Takahashi&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Akira Amano&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Gosho Aoyama&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Isami Ishii&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Keisuke Itagaki&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Masanori Morita&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nobuyuki Anzai&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Suzue Miuchi&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tsukasa Ōshima&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Yūsei Matsui&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Eiichiro Oda&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hiroshi Tanaka&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Kazuhiro Fujita&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Machiko Hasegawa&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Naoki Urasawa&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Shinji Mizushima&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tetsu Kariya, Akira Hanasaki&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Yū Sasuga, Kenichi Tachibana&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Chieko Hosokawa&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hiromi Morishita&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Katsu Aki&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Kōsuke Fujishima&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Mitsutoshi Shimabukuro&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Rumiko Takahashi&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tatsuki Fujimoto&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Yoshihiro Togashi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Akira Miyashita&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Hajime Isayama&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Izumi Matsumoto&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ken Akamatsu&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Masashi Kishimoto&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Nobuyuki Fukumoto&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tachihara Ayumi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Wataru Watanabe&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Yūto Tsukuda, Shun Saeki&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Data' id='Data_2E0A0C9003DE47169101E25615BC5171'>
+            <properties context=''>
+              <relation connection='excel-direct.1v6akal1v3dakn1e1e4n70k8hxcw' name='Data' table='[Data$]' type='table'>
+                <columns gridOrigin='A1:M191:no:A1:M191:1' header='yes' lost='0' outcome='1' processed='1070'>
+                  <column datatype='string' name='Manga' ordinal='0' />
+                  <column datatype='string' name='Japanese' ordinal='1' />
+                  <column datatype='string' name='Hepburn' ordinal='2' />
+                  <column datatype='string' name='Author(s)' ordinal='3' />
+                  <column datatype='string' name='Demographic' ordinal='4' />
+                  <column datatype='string' name='Publisher' ordinal='5' />
+                  <column datatype='integer' name='N° Volumes' ordinal='6' />
+                  <column datatype='real' name='Total Sales (millions)' ordinal='7' />
+                  <column datatype='real' name='Average Sales per Volume (millions)' ordinal='8' />
+                  <column datatype='real' name='Rating' ordinal='9' />
+                  <column datatype='integer' name='Start Year' ordinal='10' />
+                  <column datatype='string' name='End Year' ordinal='11' />
+                  <column datatype='string' name='Status' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_7257915CFF3F4A319A93312FCBE79942]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Averge Number of Volumes' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Average rating by demographic'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'><![CDATA[                           <Sheet Name>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (Best-Selling Manga)' name='federated.0doy6wl05q81rj14yyk4404q57ou' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0doy6wl05q81rj14yyk4404q57ou'>
+            <column datatype='string' name='[Demographic]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Status]' role='dimension' type='nominal' />
+            <column-instance column='[Rating]' derivation='Avg' name='[avg:Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Demographic]' derivation='None' name='[none:Demographic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Status]' derivation='None' name='[none:Status:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0doy6wl05q81rj14yyk4404q57ou].[Action (Demographic)]'>
+            <groupfilter function='level-members' level='[Demographic]' user:ui-action-filter='[Action1_5416BB75375E4EBB8651055809C8B492]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]'>
+            <groupfilter function='level-members' level='[none:Demographic:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</column>
+            <column>[federated.0doy6wl05q81rj14yyk4404q57ou].[Action (Demographic)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0doy6wl05q81rj14yyk4404q57ou].[avg:Rating:qk]</rows>
+        <cols>([federated.0doy6wl05q81rj14yyk4404q57ou].[none:Status:nk] / [federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk])</cols>
+      </table>
+      <simple-id uuid='{74C1A9E0-C486-483A-8245-B89AFF77092E}' />
+    </worksheet>
+    <worksheet name='Averge Number of Volumes'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (Best-Selling Manga)' name='federated.0doy6wl05q81rj14yyk4404q57ou' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0doy6wl05q81rj14yyk4404q57ou'>
+            <column datatype='string' name='[Demographic]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[N° Volumes]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Start Year]' role='measure' type='quantitative' />
+            <column-instance column='[N° Volumes]' derivation='Avg' name='[avg:N° Volumes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Demographic]' derivation='None' name='[none:Demographic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Start Year]' derivation='None' name='[none:Start Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Children&quot;' />
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Josei&quot;' />
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Seinen&quot;' />
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Shōjo&quot;' />
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Shōnen&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Start Year:qk]' included-values='in-range'>
+            <min>1980</min>
+            <max>2020</max>
+          </filter>
+          <slices>
+            <column>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Start Year:qk]</column>
+            <column>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' />
+              <size column='[federated.0doy6wl05q81rj14yyk4404q57ou].[avg:N° Volumes:qk]' />
+              <text column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FC0F621B-973A-4447-AE3A-EE6E765C1E91}' />
+    </worksheet>
+    <worksheet name='Sales by Demographic'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (Best-Selling Manga)' name='federated.0doy6wl05q81rj14yyk4404q57ou' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0doy6wl05q81rj14yyk4404q57ou'>
+            <column datatype='real' name='[Average Sales per Volume (millions)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Demographic]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Start Year]' role='measure' type='quantitative' />
+            <column-instance column='[Average Sales per Volume (millions)]' derivation='Avg' name='[avg:Average Sales per Volume (millions):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Demographic]' derivation='None' name='[none:Demographic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Start Year]' derivation='None' name='[none:Start Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0doy6wl05q81rj14yyk4404q57ou].[Action (Demographic)]'>
+            <groupfilter function='level-members' level='[Demographic]' user:ui-action-filter='[Action1_5416BB75375E4EBB8651055809C8B492]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]'>
+            <groupfilter function='level-members' level='[none:Demographic:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Start Year:qk]' included-values='in-range'>
+            <min>1980</min>
+            <max>2020</max>
+          </filter>
+          <slices>
+            <column>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</column>
+            <column>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Start Year:qk]</column>
+            <column>[federated.0doy6wl05q81rj14yyk4404q57ou].[Action (Demographic)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0doy6wl05q81rj14yyk4404q57ou].[avg:Average Sales per Volume (millions):qk]</rows>
+        <cols>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</cols>
+      </table>
+      <simple-id uuid='{72FA3506-3FEE-4A1E-8EC5-BD1D186031BE}' />
+    </worksheet>
+    <worksheet name='Sales by publishes'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (Best-Selling Manga)' name='federated.0doy6wl05q81rj14yyk4404q57ou' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0doy6wl05q81rj14yyk4404q57ou'>
+            <column datatype='real' name='[Average Sales per Volume (millions)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Demographic]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column-instance column='[Demographic]' derivation='None' name='[none:Demographic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Average Sales per Volume (millions)]' derivation='Sum' name='[sum:Average Sales per Volume (millions):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Children&quot;' />
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Josei&quot;' />
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Seinen&quot;' />
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Shōjo&quot;' />
+              <groupfilter function='member' level='[none:Demographic:nk]' member='&quot;Shōnen&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0doy6wl05q81rj14yyk4404q57ou].[sum:Average Sales per Volume (millions):qk]</rows>
+        <cols>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Publisher:nk]</cols>
+      </table>
+      <simple-id uuid='{2E7A7D91-02F5-4559-B48E-6238B8B9B14C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='15' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+                <zone h='49000' id='9' name='Average rating by demographic' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='12' name='Sales by Demographic' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='13' name='Averge Number of Volumes' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='17' name='Sales by publishes' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='14750' id='16' name='Averge Number of Volumes' pane-specification-id='0' param='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' type-v2='color' w='14000' x='800' y='43625' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='20' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='13' is-fixed='true' name='Averge Number of Volumes' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14750' id='16' name='Averge Number of Volumes' pane-specification-id='0' param='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' type-v2='color' w='14000' x='800' y='43625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='12' is-fixed='true' name='Sales by Demographic' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Average rating by demographic' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='17' is-fixed='true' name='Sales by publishes' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F9427B7E-E864-4170-BA79-6C0432202559}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='51'>
+    <window class='worksheet' name='Averge Number of Volumes'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Start Year:qk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[sum:N° Volumes:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A6D4C36E-2D44-49E4-A004-4B0118988FCA}' />
+    </window>
+    <window class='worksheet' name='Sales by Demographic'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='6' param='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Author(s):nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:End Year:nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Start Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A26C4C6A-DE45-4834-9B3C-031D00082AD0}' />
+    </window>
+    <window class='worksheet' name='Average rating by demographic'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Author(s):nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Japanese:nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Manga:nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Start Year:qk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Status:nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[sum:Start Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B744102F-5C6A-4AA2-ACCC-A49F23990DC2}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Average rating by demographic'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Averge Number of Volumes'>
+          <highlight>
+            <color-one-way>
+              <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Sales by Demographic'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sales by publishes'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='17' />
+      <simple-id uuid='{587DD37C-5646-40C3-AD99-F743EB9F23AF}' />
+    </window>
+    <window class='worksheet' name='Sales by publishes'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Author(s):nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Average Sales per Volume (millions):qk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Demographic:nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:End Year:nk]</field>
+            <field>[federated.0doy6wl05q81rj14yyk4404q57ou].[none:Publisher:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{53250223-3388-4693-A914-A83F9208EE68}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Average rating by demographic' width='192'>
+      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
+      N+igEsX/A6MF2Jr6yLEvAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Averge Number of Volumes' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAE60lEQVR4nO3dzU8cdQDG8WdnZ3dnXyaF8mrbSKtGU2M8+A/4T/hvevdsTEyM6cGoVUkw
+      TYEitMACy+7O288DSVPMxmIEpvB8P6fZ2QPPYb/Dj3DYRgghCDAV1T0AqBMBwFr85otv/niq
+      raNhXVtwS3yVPVHrr5/qnnEh5wLYHA61/mqvri24JbLTXxU9+67uGRfCEQjW4lk3N395qrnV
+      FVVVqWYcq9GIlGdTtbtdSVJ2eqokTdXp9a51LG6Wn7cn6rUj7Rzl+ni5o72TQv322TO3247U
+      kBQkZUVQrx1pvte89o0zA0gXF3Swva2yKBRCUDtJ1EoSHWxtq5umUqOhbDzR0sO1696LGyQr
+      gh6vtnQyLbW+O1VeSVt5rs8fdLW+O1UIUq8dKWpIcdR4dwIoi1x3Vlc1HY2UpAPFrZaiOFaS
+      DhSqoCQdSPz7AG/xYL6ljZeZHi60lZdBVSVVQRpNK332XqJpEXQ0KbU0mPkxvBYzf/Ld+/fP
+      LpYWz93nyIP/YjmNtZz++4d76S3vXzX+CIY1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoC1+M0XXy681Bedzbq24JZI/qzqnnBh5wJYyb7X
+      wuRJXVtwS0Thnm5KAhyBYG1mAL9vnGh7d6LnL8Yqykq/bRyrLIPyvFJRhrProlIVwnXvBS5V
+      POtmXlYajQtt7ky0/myktN/Utz++UtKJNJ1W6nQiFUXQ8kJHnzwaXPdm4NLMDCBpN5UXlT79
+      MNXhca7TcaG1e131u7H29qca9GMlHU5PuPlmBvDRWv/19cpi59x7/3wN3GQ8xmGNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGBt5hdlA//H/tJjnYRW3TMuhABw6b6eHOiH4526Z1wIRyBY4zcArsxcd16SlJeZRtlId5I5
+      TYuJsjJTFaqa150hAFyZxf6yDsf7en/+oY4mQw06qQ7HByrKQnHU1Obwed0TOQLh6hxNhlro
+      L2rn6IWaUVPTYqIkTtRqttSM3o1n77uxArfS7smOdk92Xl9L0nz3roaTQ45A8HQw3q97wjkc
+      gWCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCN
+      AGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGCNAGDt3HeE
+      xb1HUijq2oJb4kHzAx0XjbpnXMjfRXEDqyn4lRQAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sales by Demographic' width='192'>
+      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
+      HVpscP8Pzzw6zWkrMagAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sales by publishes' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAS+0lEQVR4nO3dyY8b6XnH8W9VkSwWd7JXtbql8YxnsT1OvMQB4iQHB7ZhIwgmCHLIAiO5
+      5JyDgVxyDJA/IkAuOQWIkUuABD7EgeHdsMf2eAzNtNaR1BvZXJprre+bQ496ukVqmtSIpMh6
+      PkBDIvkW62k2f6ztqaKhtdYIEVPmvAsQYp4kACLWJADiUvv3bvLTX7yN0hqtIx48eEjQb3Hv
+      vft0Bj5Br8lhvY3W+sLPIkjMuwDx/Htw5z32ez2iULGST3Dj7V9TKucJyfKjn/yST728wY2b
+      9yiVV3H9kFxS86nPf5HNlcK8S7+UBEBcqrK+xWdf/yS//P53qeschXweJ1sEkjjFAvXGMa+/
+      /imODmsk8gXWSoWFePMDGB91L5DWGsMwnlU9QszUR94GUEo9izqEmAvZCBaxJgEQsSYBELEm
+      ARCxJgEQsSYBELE21oEwrUIOqnVKOYdmZ0DWtgh0grWV0rTrE2KqxguANtBKkXYc3KM66BQq
+      GqDKBZRSC9P3IcTjxl4C9Lod3ut3UGYarRTKMDFNE601lmVNu04hpuIjt0JEUSQBEAtLNoJF
+      rEkARKxJAESsSQBErEkARKxJAESsSQBErEkARKxJAESsSQBErI3XCxSddoOulXM0ewEpI8BX
+      CdZXy9OuT4ipGi8AGGitMJM2kd+hryOiyEWponSDioU2QTdol27Wodvt4TgptGFJN6hYeNIN
+      KmJNNoJFrEkARKxJAESsSQBErEkARKxJAESsSQBErEkARKxJAESsSQBErI3dDbpfrVPOp6mf
+      DMg7Fp5KsCHdoGLBjfktkQZoRavdxVaKphuRkG5QsQTGCoB6vxs0n8vQCRWOaRCZCekGFQtP
+      ukFFrMlGsIg1CYCINQmAiDUJgIg1CYCINQmAiDUJgIg1CYCINQmAiDUJgIi1MZvhTnVOmpz0
+      PLK2ia8SbKxVplWXEDMxUQD6vR6NWhO1VsGIPJQqSTeoWGgTBaBQLDKIDFJoAukGFUtAukFF
+      rMlGsIg1CYCINQmAiDUJgIg1CYCINQmAiDUJgIg1CYCINQmAiLWhVgitFYd7D+kHmp3tbVJJ
+      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
+      Wfh/NTpa2DeyO00AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
